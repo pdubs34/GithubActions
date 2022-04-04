@@ -30,7 +30,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, null));
         }
         [Test]
-        public void Add_Valid()
+        public void Add_Valid2()
         {
             Assert.AreEqual(3, Program.Add("2", "2"));
             Assert.AreEqual(5, Program.Add("3", "2"));
